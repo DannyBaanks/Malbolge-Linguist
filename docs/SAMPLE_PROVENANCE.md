@@ -8,7 +8,7 @@
 
 | Field | Value |
 | --- | --- |
-| Origin path | `C:\Development\ISyCo Git\MALPAD\evidence\m2_state\truth_machine.mal` (Bolgang research corpus) |
+| Origin path | MALPAD repo, `evidence/m2_state/truth_machine.mal` (Bolgang research corpus) |
 | Author | DannyBaanks (Danny) |
 | License | MIT — author-written for MALPAD and **explicitly relicensed to MIT for inclusion in `github-linguist/linguist`** per CONTRIBUTING sample rule (not Hello World, author consents) |
 | Original public source | Local research corpus (not a Linguist fork); no separate public URL — permitted under “you wrote the sample specifically for the PR” clause |

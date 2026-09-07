@@ -1,7 +1,7 @@
 # Malbolge Asset Inventory
 
-Inventory date: 2026-09-02 UTC. Source roots were inspected read-only under
-`C:\Development\ISyCo Git` using the public genealogy provided by the owner.
+Inventory date: 2026-09-02 UTC. Source roots were inspected read-only in the
+author's local workspace using the public genealogy provided by the owner.
 An artifact is not eligible merely because it is present locally.
 
 | Artifact | Source | License | SHA256 | Purpose | Eligible for Linguist sample | Notes |

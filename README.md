@@ -3,7 +3,7 @@
 Workspace **listo en estructura para PR, pero aun no elegible para someterse** a `github-linguist/linguist`. Construido con `EVIDENCE BEFORE NARRATIVE` — sin uso inventado, sin samples de Hello World, sin gramatica no publicada reclamada como lista.
 
 - **Upstream**: `github-linguist/linguist@d5214e1612c858ba14bf98edeca57e1683276f1d` (clone en `upstream/`, gitignored)
-- **Branch**: `malbolge-linguist` (este repo, aislado de `C:\Development\ISyCo`)
+- **Branch**: `malbolge-linguist` (este repo, aislado del monorepo ISyCo)
 - **Color**: `#1D1A2F` — morado profundo EVA-01
 - **Extension**: `.malbolge` unicamente (`.mal` rechazado, ver abajo)
 
@@ -115,6 +115,6 @@ Checar: `upstream/CONTRIBUTING.md:134-250` vs `PR_DRAFT.md`; `evidence/github_us
 
 - Repo: `https://github.com/DannyBaanks/malbolge-linguist`
 - Upstream: `https://github.com/github-linguist/linguist`
-- Fuente de genealogia (solo lectura): `C:\Development\ISyCo Git\GENEALOGIA_MALBOLGE`
+- Fuente de genealogia (solo lectura): el repositorio `GENEALOGIA_MALBOLGE` (checkout local del autor)
 
 *EVIDENCE BEFORE NARRATIVE. Sin uso inventado. EVA-01 #1D1A2F.*
