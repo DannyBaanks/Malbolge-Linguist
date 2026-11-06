@@ -1,6 +1,12 @@
-# malbolge-linguist — Soporte de Malbolge para github-linguist
+# malbolge-linguist v2.0 — Soporte de Malbolge para github-linguist
 
-Workspace **listo en estructura para PR, pero aun no elegible para someterse** a `github-linguist/linguist`. Construido con `EVIDENCE BEFORE NARRATIVE` — sin uso inventado, sin samples de Hello World, sin gramatica no publicada reclamada como lista.
+[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/DannyBaanks/malbolge-linguist)
+[![Technical Implementation](https://img.shields.io/badge/implementation-READY-brightgreen.svg)]()
+[![Grammar](https://img.shields.io/badge/grammar-MIT-blue.svg)](https://github.com/DannyBaanks/malbolge-syntax)
+
+Workspace **listo en estructura técnica para PR, con implementación completa** para `github-linguist/linguist`. Construido con rigor científico `EVIDENCE BEFORE NARRATIVE` — sin uso inventado, sin samples de Hello World, con gramática TextMate MIT publicada.
+
+Parte de la **Suite Lingüística v2.0** del ecosistema Malbolge de ISyCo.
 
 - **Upstream**: `github-linguist/linguist@d5214e1612c858ba14bf98edeca57e1683276f1d` (clone en `upstream/`, gitignored)
 - **Branch**: `malbolge-linguist` (este repo, aislado del monorepo ISyCo)
