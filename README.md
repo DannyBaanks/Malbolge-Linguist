@@ -25,7 +25,7 @@ TECHNICAL_WORK = DONE
 USAGE_GATE = NOT_DEMONSTRATED
 POLICY_ELIGIBLE = FALSE
 PR_READY = FALSE
-PR_OPEN = FALSE
+PR_OPEN = TRUE   # #8329, 2026-11-11, solicitud de excepcion
 MAINTAINER_GUIDANCE = RECEIVED
 SEMANTIC_ALTERNATIVE_PATH = REJECTED
 USAGE_ASSESSMENT = PER_EXTENSION_OR_FILENAME
@@ -39,7 +39,7 @@ https://github.com/github-linguist/linguist/discussions/8164
 
 Legacy: `LANGUAGE_DEFINITION_READY=TRUE`, `SAMPLES_READY=TRUE` (estaba BLOCKED, ahora TRUE via sample MIT del PR), `DETECTION_READY` `NOT_DEMONSTRATED`→`TRUE` post-patch, `TESTS_PASS`→`NO_NEW_FAILURES=TRUE` (2/1 vs 2/1), `USAGE_GATE` se queda `NOT_DEMONSTRATED`.
 
-**No abras PR** — la guia del maintainer confirma que `POLICY_ELIGIBLE=FALSE` para la extension `.malbolge` propuesta. El bloqueador es la politica de uso, no la preparacion tecnica.
+**PR abierto 2026-11-11: https://github.com/github-linguist/linguist/pull/8329.** Va como *solicitud explicita de excepcion*, no como cumplimiento: `POLICY_ELIGIBLE=FALSE` sigue igual (37 archivos `.malbolge` vs 2000). Se espera que lo cierren bajo la politica actual. Medicion y metadatos del PR en [`evidence/github_usage/2026-11-11/`](evidence/github_usage/2026-11-11/README.md).
 
 Epilogo del proyecto historico: [`docs/EPILOGUE.md`](docs/EPILOGUE.md).
 

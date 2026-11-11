@@ -1,4 +1,4 @@
-# PR Draft - Add Malbolge (NOT READY TO SUBMIT)
+# PR Draft - Add Malbolge (SUBMITTED 2026-11-11 as exception request: #8329)
 
 This is a future PR checklist, not a pull request. Technical work is complete,
 but the usage policy gate remains blocked. See Discussion #8164:
@@ -17,8 +17,8 @@ USAGE_GATE = NOT_DEMONSTRATED
 POLICY_ELIGIBLE = FALSE
 PR_READY = FALSE
 DISCUSSION_POSTED = TRUE
-MAINTAINER_GUIDANCE = PENDING
-PR_OPEN = FALSE
+MAINTAINER_GUIDANCE = RECEIVED
+PR_OPEN = TRUE (#8329)
 ```
 
 ## Checklist
@@ -78,3 +78,16 @@ NEXT_ACTION = WAIT_FOR_MAINTAINER
 - Canonical evidence: `evidence/canonical/`
 - Final audit: `docs/FINAL_AUDIT.md`
 - Discussion: https://github.com/github-linguist/linguist/discussions/8164
+
+## Update 2026-11-11 — PR opened
+
+Opened as https://github.com/github-linguist/linguist/pull/8329 by explicit decision of the author, framed as an
+exception request. The policy state above is unchanged (`POLICY_ELIGIBLE = FALSE`, `.malbolge` = 37 files today).
+The text above is preserved as history. Submitted body and evidence: `evidence/github_usage/2026-11-11/`.
+
+```text
+PR_OPEN = TRUE
+PR_URL = https://github.com/github-linguist/linguist/pull/8329
+PR_HEAD = 248e99726c0fc3f09fbfc2fae4be7b14f63ec68d (base upstream d456527f)
+EXPECTED_OUTCOME = CLOSED_UNDER_USAGE_POLICY
+```

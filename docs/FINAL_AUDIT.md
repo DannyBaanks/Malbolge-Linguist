@@ -146,3 +146,8 @@ Final state: `TECHNICAL_WORK = DONE`; `FINAL_STATE = BLOCKED_BY_USAGE_POLICY`; n
 - Raw logs in `evidence/canonical/`: `add_grammar.log`, `add_grammar_generated.diff`, `update_ids*.log`, `list_grammars.log`, `samples*.log`, `rake_test.log` (baseline), `rake_test_final.log` (patched), `detection.log`, `breakdown_cli.log`, `apply_verify.log`, `bundle_install.log`.
 - Patch: `evidence/patches/malbolge.patch` (hash `DFDA0517...`, `d5214e16..1af6aef9`).
 - Canonical patch commit `1af6aef9` lives only in the Docker volume (not pushed); outer `malbolge-linguist` at new commit (not pushed per task).
+
+## Appended correction 2026-11-11 (the audit above is preserved as written)
+
+`PR_OPEN = TRUE` — https://github.com/github-linguist/linguist/pull/8329, opened as an exception request.
+`USAGE_GATE = NOT_DEMONSTRATED` and `POLICY_ELIGIBLE = FALSE` do not change (`.malbolge` = 37, see `evidence/github_usage/2026-11-11/`).

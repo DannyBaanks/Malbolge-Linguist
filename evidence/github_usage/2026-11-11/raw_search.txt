@@ -1,0 +1,17 @@
+captured_at_utc=2026-11-11T20:27:04Z
+tool=gh api -X GET search/code (REST code search, authenticated as DannyBaanks)
+--- q=extension:malbolge NOT is:fork
+{"incomplete_results":false,"total_count":37}
+exit=0
+--- q=extension:malbolge
+{"incomplete_results":false,"total_count":37}
+exit=0
+--- q=extension:mal malbolge
+{"incomplete_results":false,"total_count":26}
+exit=0
+--- q=extension:mb malbolge
+{"incomplete_results":false,"total_count":12}
+exit=0
+--- q=malbolge
+{"incomplete_results":false,"total_count":9424}
+exit=0
